@@ -2,7 +2,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:password00000@cluster0.d0qi4xw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv:
       database: journaldb
       auto-index-creation: true
   main:
@@ -10,4 +10,5 @@ spring:
 
 server:
   servlet:
+
     context-path: /journal
