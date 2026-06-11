@@ -1,13 +1,13 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv
+      uri: ${MONGODB_URI}
       database: journaldb
       auto-index-creation: true
+
   main:
     allow-circular-references: true
 
 server:
   servlet:
-
     context-path: /journal
